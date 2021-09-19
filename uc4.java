@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.util.Scanner;
-class uc4{
+class Line{
     Point P1=new Point();
     Point P2=new Point();
     Line(String s){
@@ -18,7 +18,7 @@ class uc4{
         return ans;
     }
 }
-public class Check {
+public class uc4 {
     public static void main(String[] args) {
         Line l1=new Line("_1st Line");
         Line l2=new Line("_2nd Line");
